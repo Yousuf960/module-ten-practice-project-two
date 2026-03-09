@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <button>Please click me</button>
+    
       <Suspense fallback={"Please wait for loading Country."}>
         <Countries />
       </Suspense>
